@@ -1,1 +1,1 @@
-# goit-markup-hw-02
+# https://slawekpo.github.io/goit-markup-hw-02/
