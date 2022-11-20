@@ -76,7 +76,7 @@ ul {
   text-align: center;
 }
 .title-section-two {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-size: 14px;
   font-weight: 700;
   line-height: 16px;
@@ -85,7 +85,7 @@ ul {
   color: #212121;
 }
 .text-section-two {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
@@ -94,7 +94,7 @@ ul {
   color: #757575;
 }
 .title-section-tree {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-size: 36px;
   font-weight: 700;
   line-height: 42px;
@@ -102,27 +102,34 @@ ul {
   text-align: center;
   color: #212121;
 }
-.image-name {
-  font-family: Roboto;
+.secttion-four {
+  background-color: #f5f4fa;
+}
+
+.image-name-studio {
+  font-family: Roboto, sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 19px;
   letter-spacing: 0.03em;
-  text-align: center;
+
   color: #212121;
 }
-.image-text {
-  font-family: Roboto;
+.image-text-studio {
+  font-family: Roboto, sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 19px;
   letter-spacing: 0.03em;
-  text-align: center;
+
   color: #757575;
+}
+.image-background {
+  background-color: #ffffff;
 }
 .logo-footer {
   color: #2196f3;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 26px;
   font-weight: 700;
   line-height: 31px;
@@ -136,7 +143,7 @@ ul {
   background-color: #2f303a;
 }
 .contact-links-footer {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
@@ -146,11 +153,72 @@ ul {
   text-decoration: none;
 }
 .address-footer {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.03em;
   text-align: left;
   color: #ffffff;
+}
+
+.button-portfolio :hover,
+.button-portfolio :focus {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+.button-all {
+  height: 38px;
+  width: 73px;
+  left: 495px;
+  top: 174px;
+  border-radius: 4px;
+}
+.button-web-site {
+  height: 38px;
+  width: 128px;
+  left: 576px;
+  top: 174px;
+  border-radius: 4px;
+}
+.button-apps {
+  height: 38px;
+  width: 145px;
+  left: 712px;
+  top: 174px;
+  border-radius: 4px;
+}
+.button-design {
+  height: 38px;
+  width: 103px;
+  left: 865px;
+  top: 174px;
+  border-radius: 4px;
+}
+.button-marketing {
+  height: 38px;
+  width: 130px;
+  left: 976px;
+  top: 174px;
+  border-radius: 4px;
+}
+.image-name-portfolio {
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  text-align: left;
+
+  color: #212121;
+}
+.image-text-portfolio {
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  text-align: left;
+
+  color: #757575;
 }
