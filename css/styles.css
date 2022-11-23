@@ -11,7 +11,7 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-.logo-header {
+.logo {
   color: var(--selection-color);
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -24,7 +24,7 @@ body {
 .nav-links a {
   font-size: 14px;
   font-weight: 500;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   text-align: left;
   color: var(--nav-color);
@@ -38,7 +38,7 @@ body {
 .contact-links a {
   font-size: 14px;
   font-weight: 500;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   text-align: left;
   color: var(--contacts-color);
@@ -59,7 +59,7 @@ body {
 .section-first-title {
   font-size: 44px;
   font-weight: 900;
-  line-height: 60px;
+  line-height: 1.36;
   letter-spacing: 0.06em;
   text-align: center;
   color: var(--section-color);
@@ -76,14 +76,14 @@ body {
   color: var(--section-color);
   font-size: 16px;
   font-weight: 700;
-  line-height: 30px;
+  line-height: 1.87;
   letter-spacing: 0.06em;
   text-align: center;
 }
 .title-section-two {
   font-size: 14px;
   font-weight: 700;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-align: left;
   color: var(--nav-color);
@@ -91,7 +91,7 @@ body {
 .text-section-two {
   font-size: 14px;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   text-align: left;
   color: var(--contacts-color);
@@ -99,7 +99,7 @@ body {
 .title-section-tree {
   font-size: 36px;
   font-weight: 700;
-  line-height: 42px;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-align: center;
   color: var(--nav-color);
@@ -111,7 +111,7 @@ body {
 .image-name-studio {
   font-size: 16px;
   font-weight: 500;
-  line-height: 19px;
+  line-height: 1.18;
   letter-spacing: 0.03em;
 
   color: var(--nav-color);
@@ -119,7 +119,7 @@ body {
 .image-text-studio {
   font-size: 16px;
   font-weight: 400;
-  line-height: 19px;
+  line-height: 1.18;
   letter-spacing: 0.03em;
 
   color: var(--contacts-color);
@@ -127,16 +127,7 @@ body {
 .image-background {
   background-color: var(--section-color);
 }
-.logo-footer {
-  color: var(--selection-color);
-  font-family: Raleway, sans-serif;
-  font-size: 26px;
-  font-weight: 700;
-  line-height: 31px;
-  letter-spacing: 0.03em;
-  text-align: left;
-  text-decoration: none;
-}
+
 .logo-background-footer {
   width: 1600px;
   height: 252px;
@@ -146,7 +137,7 @@ body {
 .address-footer {
   font-size: 14px;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   text-align: left;
   color: var(--section-color);
@@ -186,7 +177,7 @@ body {
 .image-name-portfolio {
   font-size: 18px;
   font-weight: 700;
-  line-height: 36px;
+  line-height: 2;
   letter-spacing: 0.06em;
   text-align: left;
 
@@ -195,7 +186,7 @@ body {
 .image-text-portfolio {
   font-size: 16px;
   font-weight: 400;
-  line-height: 30px;
+  line-height: 1.86;
   letter-spacing: 0.03em;
   text-align: left;
 
