@@ -9,6 +9,8 @@
 
 body {
   font-family: "Roboto", sans-serif;
+  background-color: var(--section-color);
+  color: var(--nav-color);
 }
 
 .logo {
@@ -86,11 +88,9 @@ body {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-align: left;
-  color: var(--nav-color);
 }
 .text-section-two {
   font-size: 14px;
-  font-weight: 400;
   line-height: 1.71;
   letter-spacing: 0.03em;
   text-align: left;
@@ -102,7 +102,6 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-align: center;
-  color: var(--nav-color);
 }
 .secttion-four {
   background-color: var(--sectionfour-color);
@@ -113,12 +112,9 @@ body {
   font-weight: 500;
   line-height: 1.18;
   letter-spacing: 0.03em;
-
-  color: var(--nav-color);
 }
 .image-text-studio {
   font-size: 16px;
-  font-weight: 400;
   line-height: 1.18;
   letter-spacing: 0.03em;
 
@@ -136,7 +132,6 @@ body {
 
 .address-footer {
   font-size: 14px;
-  font-weight: 400;
   line-height: 1.71;
   letter-spacing: 0.03em;
   text-align: left;
@@ -180,12 +175,9 @@ body {
   line-height: 2;
   letter-spacing: 0.06em;
   text-align: left;
-
-  color: var(--nav-color);
 }
 .image-text-portfolio {
   font-size: 16px;
-  font-weight: 400;
   line-height: 1.86;
   letter-spacing: 0.03em;
   text-align: left;
