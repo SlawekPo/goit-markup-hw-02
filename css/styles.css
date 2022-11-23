@@ -1,11 +1,18 @@
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+:root {
+  --selection-color: #2196f3;
+  --contacts-color: #757575;
+  --nav-color: #212121;
+  --section-color: #ffffff;
+  --footer-color: #2f303a;
+  --sectionfour-color: #f5f4fa;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
 }
 
 .logo-header {
-  color: #2196f3;
+  color: var(--selection-color);
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -14,36 +21,35 @@ ul {
   text-decoration: none;
 }
 
-.nav-links {
-  font-family: Roboto, sans-serif;
+.nav-links a {
   font-size: 14px;
   font-weight: 500;
   line-height: 16px;
   letter-spacing: 0.02em;
   text-align: left;
-  color: #212121;
+  color: var(--nav-color);
   text-decoration: none;
 }
 .nav-links :hover,
 .nav-links :focus {
-  color: #2196f3;
+  color: var(--selection-color);
 }
-.contact-links-header {
-  font-family: Roboto, sans-serif;
+
+.contact-links a {
   font-size: 14px;
   font-weight: 500;
   line-height: 16px;
   letter-spacing: 0.02em;
   text-align: left;
-  color: #757575;
+  color: var(--contacts-color);
   text-decoration: none;
 }
-.contact-links-header :hover,
-.contact-links-header :focus {
-  color: #2196f3;
+.contact-links :hover,
+.contact-links :focus {
+  color: var(--selection-color);
 }
 .section-first {
-  background: #2f303a;
+  background: var(--footer-color);
   height: 600px;
   width: 1600px;
   left: 0px;
@@ -51,24 +57,23 @@ ul {
   border-radius: 0px;
 }
 .section-first-title {
-  font-family: Roboto, sans-serif;
   font-size: 44px;
   font-weight: 900;
   line-height: 60px;
   letter-spacing: 0.06em;
   text-align: center;
-  color: #ffffff;
+  color: var(--section-color);
 }
 .button-service {
-  background-color: #2196f3;
+  background-color: var(--selection-color);
   height: 50px;
   width: 200px;
   left: 700px;
   top: 430px;
   border-radius: 4px;
+  cursor: pointer;
 
-  color: #ffffff;
-  font-family: Roboto, sans-serif;
+  color: var(--section-color);
   font-size: 16px;
   font-weight: 700;
   line-height: 30px;
@@ -76,59 +81,54 @@ ul {
   text-align: center;
 }
 .title-section-two {
-  font-family: Roboto, sans-serif;
   font-size: 14px;
   font-weight: 700;
   line-height: 16px;
   letter-spacing: 0.03em;
   text-align: left;
-  color: #212121;
+  color: var(--nav-color);
 }
 .text-section-two {
-  font-family: Roboto, sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.03em;
   text-align: left;
-  color: #757575;
+  color: var(--contacts-color);
 }
 .title-section-tree {
-  font-family: Roboto, sans-serif;
   font-size: 36px;
   font-weight: 700;
   line-height: 42px;
   letter-spacing: 0.03em;
   text-align: center;
-  color: #212121;
+  color: var(--nav-color);
 }
 .secttion-four {
-  background-color: #f5f4fa;
+  background-color: var(--sectionfour-color);
 }
 
 .image-name-studio {
-  font-family: Roboto, sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 19px;
   letter-spacing: 0.03em;
 
-  color: #212121;
+  color: var(--nav-color);
 }
 .image-text-studio {
-  font-family: Roboto, sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 19px;
   letter-spacing: 0.03em;
 
-  color: #757575;
+  color: var(--contacts-color);
 }
 .image-background {
-  background-color: #ffffff;
+  background-color: var(--section-color);
 }
 .logo-footer {
-  color: #2196f3;
+  color: var(--selection-color);
   font-family: Raleway, sans-serif;
   font-size: 26px;
   font-weight: 700;
@@ -140,85 +140,64 @@ ul {
 .logo-background-footer {
   width: 1600px;
   height: 252px;
-  background-color: #2f303a;
+  background-color: var(--footer-color);
 }
-.contact-links-footer {
-  font-family: Roboto, sans-serif;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.03em;
-  text-align: left;
-  color: #ffffff99;
-  text-decoration: none;
-}
+
 .address-footer {
-  font-family: Roboto, sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.03em;
   text-align: left;
-  color: #ffffff;
+  color: var(--section-color);
 }
 
 .button-portfolio :hover,
 .button-portfolio :focus {
-  background-color: #2196f3;
-  color: #ffffff;
+  background-color: var(--selection-color);
+  color: var(--section-color);
+  cursor: pointer;
 }
-.button-all {
+.button {
   height: 38px;
+  top: 174px;
+  border-radius: 4px;
+}
+.all {
   width: 73px;
   left: 495px;
-  top: 174px;
-  border-radius: 4px;
 }
-.button-web-site {
-  height: 38px;
+.web-site {
   width: 128px;
   left: 576px;
-  top: 174px;
-  border-radius: 4px;
 }
-.button-apps {
-  height: 38px;
+.apps {
   width: 145px;
   left: 712px;
-  top: 174px;
-  border-radius: 4px;
 }
-.button-design {
-  height: 38px;
+.design {
   width: 103px;
   left: 865px;
-  top: 174px;
-  border-radius: 4px;
 }
-.button-marketing {
-  height: 38px;
+.marketing {
   width: 130px;
   left: 976px;
-  top: 174px;
-  border-radius: 4px;
 }
 .image-name-portfolio {
-  font-family: Roboto, sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 36px;
   letter-spacing: 0.06em;
   text-align: left;
 
-  color: #212121;
+  color: var(--nav-color);
 }
 .image-text-portfolio {
-  font-family: Roboto, sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 30px;
   letter-spacing: 0.03em;
   text-align: left;
 
-  color: #757575;
+  color: var(--contacts-color);
 }
