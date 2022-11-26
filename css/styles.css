@@ -22,6 +22,12 @@ body {
   letter-spacing: 0.03em;
   text-decoration: none;
 }
+.logo-header {
+  color: var(--nav-color);
+}
+.logo-footer {
+  color: var(--section-color);
+}
 
 .nav-links a {
   font-size: 14px;
@@ -88,6 +94,7 @@ body {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-align: left;
+  color: inherit;
 }
 .text-section-two {
   font-size: 14px;
@@ -102,6 +109,7 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-align: center;
+  color: inherit;
 }
 .secttion-four {
   background-color: var(--sectionfour-color);
@@ -112,6 +120,7 @@ body {
   font-weight: 500;
   line-height: 1.18;
   letter-spacing: 0.03em;
+  color: inherit;
 }
 .image-text-studio {
   font-size: 16px;
@@ -175,6 +184,7 @@ body {
   line-height: 2;
   letter-spacing: 0.06em;
   text-align: left;
+  color: inherit;
 }
 .image-text-portfolio {
   font-size: 16px;
